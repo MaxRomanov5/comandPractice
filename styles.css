@@ -1,0 +1,46 @@
+:root {
+  --main-bg-color: #ffffff;
+  --secondary-bgc: #e0e0e0;
+  --main-title-color: #323232;
+  --secondary-title-color: #fff;
+  --third-title-color: #000000;
+  --main-text-color: #999999;
+  --secondary-text-color: #ffffff;
+  --accent-color: #4985ff;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
