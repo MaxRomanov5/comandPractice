@@ -7,6 +7,7 @@
   --main-text-color: #999999;
   --secondary-text-color: #ffffff;
   --accent-color: #4985ff;
+  --header-line: #A1A1A1;
 }
 
 p,
@@ -35,7 +36,11 @@ ul {
 
 body {
   background-color: var(--main-bg-color);
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+  border-bottom: 1px solid var(--header-line);
 }
 
 .container {
@@ -43,4 +48,18 @@ body {
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
+}
+
+.nav-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  padding: 40px 20px;
+  display: block;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
 }
