@@ -142,3 +142,36 @@ body {
   margin-bottom: 70px;
 
 }
+.works-list {
+display: flex;
+margin-left: -30px;
+}
+.works-item{
+  display: flex;
+  width: 350px;
+
+}
+
+.first-wrap {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+    height: 110px;
+    border: 1px solid #E0E0E0;
+    border-radius: 50%;
+    margin-right: 17px;
+}
+.second-wrap {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 90px;
+    height: 90px;
+    border: 1px solid #4985FF;
+    border-radius: 50%;
+}
+.works-item{
+  margin-left: 30px;
+}
