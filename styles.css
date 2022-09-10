@@ -7,7 +7,7 @@
   --main-text-color: #999999;
   --secondary-text-color: #ffffff;
   --accent-color: #4985ff;
-  --header-line: #A1A1A1;
+  --header-line: #a1a1a1;
 }
 
 p,
@@ -98,7 +98,7 @@ body {
 }
 
 .btn {
-  background: #4985FF;
+  background: #4985ff;
   box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
   border-radius: 30px;
   border: none;
@@ -111,4 +111,34 @@ body {
   font-size: 16px;
   line-height: 1.25;
   color: var(--secondary-title-color);
+}
+
+.works {
+  padding-top: 110px;
+  padding-bottom: 105px;
+}
+
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47x;
+  text-align: center;
+  color: var(--main-title-color);
+
+  margin: 0 auto;
+  width: 739px;
+  margin-bottom: 32px;
+}
+
+.works-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.55;
+  text-align: center;
+  color: var(--main-text-color);
+
+  margin: 0 auto;
+	width: 730px;
+  margin-bottom: 70px;
+
 }
