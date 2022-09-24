@@ -194,3 +194,14 @@ body {
 .works-icon {
   fill: var(--accent-color);
 }
+
+
+.spec {
+  padding: 100px 0 85px 0;
+  height: 800px;
+  background-image: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%),
+    linear-gradient( #C4C4C4, #C4C4C4);
+    background-size: 100% 50%;
+    background-position: top, bottom;
+    background-repeat: no-repeat;
+}
