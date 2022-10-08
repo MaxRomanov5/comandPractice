@@ -4,6 +4,38 @@
   color: aquamarine;
 }
 
+.auto-wrap {
+  display: flex;
+  gap: 30px;
+  width: 800px;
+  height: 600px;
+}
+
+.auto {
+  width: 150px;
+  background-repeat: no-repeat;
+}
+
+.mers {
+  background-image: url("../../images/mers.jpg");
+}
+
+.daewoo {
+  background-image: url("../../images/daewoo.jpg");
+}
+
+.audi {
+  background-image: url("../../images/audi.jpg");
+}
+
+.lanos {
+  background-image: url("../../images/lanos.jpg");
+}
+
+.skoda {
+  background-image: url("../../images/skoda.jpg");
+}
+
 .header {
   border-bottom: 1px solid var(--header-line);
   position: absolute;

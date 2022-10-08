@@ -1,30 +1,45 @@
+.auto-wrap {
+  display: flex;
+  gap: 30px;
+  width: 800px;
+  height: 600px;
+}
+.auto {
+  width: 150px;
+  background-repeat: no-repeat;
+}
+
+@each $auto in mers, daewoo, audi, lanos, skoda {
+  .#{$auto} {
+    background-image: url('../../images/#{$auto}.jpg');
+  }
+}
+
 .header {
-	border-bottom: 1px solid var(--header-line);
-	position: absolute;
-	width: 100%;
+  border-bottom: 1px solid var(--header-line);
+  position: absolute;
+  width: 100%;
 }
 
 .icon-wrap {
-& .icon {
-	fill: black;
-}
+  & .icon {
+    fill: black;
+  }
 }
 
 .icon {
-	.icon-wrap & {
-		fill: black;
-	}
-	&:hover {
-		fill: red;
-	}
+  .icon-wrap & {
+    fill: black;
+  }
+  &:hover {
+    fill: red;
+  }
 }
 
-.button-hero{
-	@extend %button;
-	display: block;
+.button-hero {
+  @extend %button;
+  display: block;
 }
-.flex{
-	@include flex-center(
-		$ai:center
-	)
+.flex {
+  @include flex-center($ai: center);
 }
