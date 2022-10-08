@@ -1,0 +1,6 @@
+@mixin flex-center($jc:space-between,$ai:baseline){ 
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+}
+

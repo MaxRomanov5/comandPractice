@@ -19,4 +19,12 @@
 	}
 }
 
-
+.button-hero{
+	@extend %button;
+	display: block;
+}
+.flex{
+	@include flex-center(
+		$ai:center
+	)
+}
