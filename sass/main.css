@@ -1,0 +1,16 @@
+.header {
+  border-bottom: 1px solid var(--header-line);
+  position: absolute;
+  width: 100%;
+}
+
+.icon-wrap .icon {
+  fill: black;
+}
+
+.icon-wrap .icon {
+  fill: black;
+}
+.icon:hover {
+  fill: red;
+}/*# sourceMappingURL=main.css.map */

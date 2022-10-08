@@ -1,0 +1,22 @@
+.header {
+	border-bottom: 1px solid var(--header-line);
+	position: absolute;
+	width: 100%;
+}
+
+.icon-wrap {
+& .icon {
+	fill: black;
+}
+}
+
+.icon {
+	.icon-wrap & {
+		fill: black;
+	}
+	&:hover {
+		fill: red;
+	}
+}
+
+

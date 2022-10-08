@@ -53,11 +53,7 @@ body {
 }
 
 /* header */
-.header {
-  border-bottom: 1px solid var(--header-line);
-  position: absolute;
-  width: 100%;
-}
+
 
 .container {
   width: 1140px;
@@ -115,7 +111,7 @@ body {
   height: 40px;
   border-radius: 34px;
   background-color: gray;
-  
+
   transition:background-color 500ms ease-in ;
 }
 
