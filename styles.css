@@ -133,6 +133,19 @@ body {
 
   transition: transform 500ms ease-in;
 }
+.check-input:checked + .check-icon .uncheck{
+opacity: 0;
+}
+.check-input:checked + .check-icon .check{
+opacity: 1;
+}
+.check {
+  opacity: 0;
+}
+
+.uncheck {
+  opacity: 1;
+}
 
 /* hero */
 .hero-section {
