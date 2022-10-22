@@ -61,4 +61,34 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.adaptive {
+  width: 480px;
+  height: 800px;
+}
+
+.adaptiv__box {
+  width: 300px;
+  height: 100px;
+  background-color: yellow;
+}
+
+@media screen and (max-width: 767.98px) {
+  .adaptiv__box {
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .adaptive {
+    width: 630px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .adaptive {
+    width: 960px;
+  }
 }/*# sourceMappingURL=main.css.map */
