@@ -20,7 +20,35 @@
   </head>
 
   <body>
-    <header class="header">
+
+    <div class="barbers-hero">
+
+    </div>
+
+    <div class="barber-box">
+      <img loading="lazy"
+      srcset="
+      ./images/mobile-barber3.jpg 420w,
+      ./images/mobile-barber3@2x.jpg 840w,
+      ./images/tablet-barber3.jpg 330w,
+      ./images/tablet-barber3@2x.jpg 660w,
+      ./images/desktop-barber3.jpg 270w,
+      ./images/desktop-barber3@2x.jpg 540w,
+
+      "
+      sizes="(min-width: 1200px) 270px, (min-width: 768px) 330px, (min-width: 480px) 420px, 100vw "
+      src="./images/mobile-barber3.jpg"
+      alt="barber">
+      <!-- <picture>
+        <source media="(max-width: 767px)" srcset="
+        ./images/mobile-barber3.jpg 1x,
+         ./images/mobile-barber3@2x.jpg 2x">
+
+      <img src="./images/mobile-barber3.jpg"
+      alt="">
+      </picture> -->
+    </div>
+    <!-- <header class="header">
       <div class="auto-wrap">
         <div class="auto lanos"></div>
         <div class="auto daewoo"></div>
@@ -143,8 +171,8 @@
           <button type="button" class="btn">Все услуги</button>
         </div>
       </section>
-      <!-- про нас -->
-      <section>
+       про нас -->
+      <!-- <section>
         <div>
           <div>
             <div>
@@ -357,7 +385,7 @@
       </ul>
 
       <p>(с) 2019. Все права защищены.</p>
-    </footer>
+    </footer>  -->
 
   </body>
 </html>
